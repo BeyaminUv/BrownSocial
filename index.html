@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Actividad_CSS_BrownSocial</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Brown Social Home Page!</h1>
+    <nav class=topheader">
+      <ul class="Menu-Horizontal">
+      <a href="" class="">
+        <img height ="89px" width="200px" src="img/LosVagos.webp" alt=""/>
+      </a>        
+        <li><a href="">Inicio</a></li>
+        <li><a href="">Comunidad</a></li>
+        <li>
+          <a href="">Actividades</a>
+         <ul class="Menu-Vertical"> 
+          <li><a href="">Carreras SeaShark</a><li>
+          <li><a href="">Enfrentamiento LasVenturas</a><li>
+          <li><a href="">Coliseo Manolo Caminos</a><li>
+          <li><a href="">Facto del día</a><li>
+         </ul>
+        </li>
+        <li><a href="">Overview</a></li>
+
+      </ul>
+    </nav>
+    <!--SECCION-PERSONAS-->
+    <section class= "seccion-personas">
+        <div class="div-gral-persona">
+              <div class="div-pers-texto">
+                    <h2>Sobre God of War 2</h2>
+
+                    <p>
+                      God of War II es un videojuego de acción-aventura hack & slash desarrollado por Santa Monica Studio y publicado por Sony Computer Entertainment para la PlayStation 2. Es la segunda entrega de la serie God of War, la sexta cronológicamente, y la secuela del videojuego God of War de 2005. El juego está basado en la mitología griega y ambientado en la antigua Grecia, con la venganza como motivo central. El personaje del jugador es el protagonista Kratos, el nuevo Dios de la Guerra que mató al primero, Ares. Kratos es traicionado por Zeus, el rey de los dioses olímpicos, quien lo despoja de su divinidad y lo mata. Arrastrado lentamente al Inframundo, es salvado por la Titán Gaia, quien le indica que encuentre a las Hermanas del Destino, ya que pueden permitirle viajar en el tiempo, evitar su traición y vengarse de Zeus.
+                    </p>
+
+                    <p>
+                      Al igual que su predecesor, God of War II se desarrolla en una versión alternativa de la antigua Grecia, poblada por dioses olímpicos, titanes, héroes y otros seres de la mitología griega. Con la excepción de los flashbacks, los eventos se establecen entre los de los juegos Betrayal (2007) y God of War III (2010). Se exploran varios lugares, incluido un escenario del mundo real en la antigua ciudad de Rodas, y varios lugares ficticios, incluida una breve escena en el Inframundo, la Guarida de Tifón, la Isla de la Creación y sus lugares, el Tártaro y una breve escena en el monte Olimpo.
+                    </p>
+              </div>
+
+              <div class="div-pers-img">
+                <img src="img/brooke-cagle--uHVRvDr7pg-unsplash.jpg"/>
+              </div>
+              <!--<div class="div-brs-vid">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/GFXpLHiewX4?si=vSwccXa84UpSbWNs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>-->
+            </div> 
+    </section>
+    
+    
+    <section class="seccion-vid">
+      <div class="div-gral-vid">
+
+        <div class="div-vid-texto">
+          <h3>Reseña God of War 2</h3>
+          <p>
+            El arma principal de Kratos es un par de espadas sujetas a cadenas que se enrollan alrededor de sus muñecas y antebrazos. Llamadas las Espadas de Atenea en este juego, pueden usarse para atacar con diversas maniobras. A medida que avanza el juego, Kratos adquiere nuevas armas: el Martillo Bárbaro, la Lanza del Destino y, periódicamente, la Espada del Olimpo, que le ofrecen opciones de combate alternativas. Aunque Kratos comienza el juego con las Espadas de Atenea y la habilidad mágica Furia de Poseidón (ambas al máximo poder), el poder de las espadas se reduce y la magia desaparece tras un encuentro con Zeus (la Furia de Poseidón puede recuperarse obteniendo una urna específica). Al igual que en los juegos anteriores, Kratos aprende a usar hasta cuatro habilidades mágicas, como la Perdición de Tifón , que funciona como un arco y flecha para objetivos lejanos, lo que le proporciona diversas formas de atacar y eliminar enemigos. Otras nuevas habilidades mágicas incluyen la Ira de Cronos, la Cabeza de Euríale y el Terremoto de Atlas . La habilidad especial Ira de los Dioses, presente en el juego anterior, se reemplaza por Ira de los Titanes; a diferencia del juego anterior, el medidor de Ira —que permite usar la habilidad— no tiene que estar lleno para usarla, y se puede activar y desactivar a voluntad.
+          </p>
+        </div>
+        
+        
+        <div class="div-brs-vid">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/GFXpLHiewX4?si=vSwccXa84UpSbWNs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        </div>
+        
+    </section>
+      
+    <!--SECCION FORMULARIO-->
+    <section class="section-form">
+        <div class="div-cont-form">
+            <h2>Formulario de registro para Brown Social</h2>
+            <p>Completa todos los campos</p>
+            <form class="form-cuenta">
+                <!--INPUTS/LABEL-->
+                <div class="campo">
+                    <label for="nom-user">Nombre-usuario:</label>
+                    <input type="text" 
+                           id="nombre"
+                           name="nombre" placeholder="Ingrese username"></input>
+                </div>
+                <!--SELECT(LISTA DESPLEGABLE)-->
+                <div class="campo">
+                    <label for="nom-user">Pais:</label>
+                    <select id="pais" name=Pais>
+                        <option value="">selecciona un pais</option>
+                        <option value="Peru">Perú</option>
+                        <option value="Bolivia">Bolivia</option>
+                        <option value="Chile">Chile</option>
+                        <option value="Argentina">Argentina</option>
+                        <option value="Uruguay">Uruguay</option>
+                    </select>              
+                </div>
+                <!--CHECKBOX-->
+                <div class="campo">
+                    <label>Arma favorita del left:</label>
+                    <ul class="lista-checkbox">
+                        <li><label><input type="checkbox" name="PumpS" value="ps">Pump Shotgun</label></li>
+                        <li><label><input type="checkbox" name="RL" value="RL">Rocket Launcher</label></li>
+                        <li><label><input type="checkbox" name="AR" value="AR">Assaul Rifle</label></li>
+                        <li><label><input type="checkbox" name="HR" value="HR">Hunter rifle</label></li>
+                        <li><label><input type="checkbox" name="m60" value="M60">Eme 60</label></li>
+                        <li><label><input type="checkbox" name="ChromeS" value="cs">Chrome Shotgun</label></li>
+                        <li><label><input type="checkbox" name="Mc10" value="m10">Mac-10</label></li>
+                    </ul>
+                </div>
+                <!--RADIO-->
+                <div class="campo">
+                  <label>Orientacion:</label>
+                    <ul class="lista-rad">
+                      <li><label><input type="radio" name="Dsetup" value="dsetup">Configuracion de fabrica (Hetero)</label></li>
+                      <li><label><input type="radio" name="Hsetup" value="hsetup">El otro lado (Homo)</label></li>
+                    </ul>
+                
+                </div>
+                <button type="submit">Registrarme</button>
+            </form>
+        </div>
+      </section>   
+        <!-- PIE DE PAGINA -->
+    <section id="footer">
+      <footer class="footer">
+        <div class="footer-container">
+          <!-- Logo y nombre de sitio -->
+          <div class="footer-brand">
+            <img
+              src="Imagenes/senati-logo.png"
+              alt="Logo"
+              class="footer-logo"
+            />
+            <p>SENATI</p>
+            <small>© 2025 Todos los derechos reservados</small>
+          </div>
+
+          <!-- Enlaces legales -->
+          <div class="footer-links">
+            <h4>Legal</h4>
+            <a href="/Documentos/3.politica-privacidad.pdf"
+              >Política de Privacidad</a
+            >
+            <!-- Dentro de href llama a un documento pdf con la poltica-->
+            <a href="#">Términos y Condiciones</a>
+            <!-- Dentro de href llama a un documento pdf con los terminos y condiciones-->
+            <a href="/Documentos/LeyProteccionDatos.pdf">Protección de Datos</a>
+          </div>
+
+          <!-- Redes sociales con íconos personalizados -->
+          <div class="footer-social">
+            <h4>Síguenos</h4>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145802.png"
+                alt="Facebook"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145812.png"
+                alt="Instagram"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145807.png"
+                alt="LinkedIn"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145806.png"
+                alt="Twitter"
+                class="social-icon"
+            /></a>
+          </div>
+        </div>
+      </footer>
+    </section>
+  </body>
+  </html>
+  
